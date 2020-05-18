@@ -1,0 +1,944 @@
+dateModified: 1589829663
+email:
+  fromEmail: nettum@gmail.com
+  fromName: 'Craft 200518'
+  transportType: craft\mail\transportadapters\Sendmail
+fieldGroups:
+  b570cb16-8d35-4039-b6e8-76b88d2550a6:
+    name: Common
+matrixBlockTypes:
+  036118cc-16f0-49c2-9834-60e6577ac005:
+    field: 54ba4871-d804-4394-98ed-0f68b708bf5a
+    fieldLayouts:
+      0277aa38-3b22-43f5-937f-d2ff1ed67b3e:
+        tabs:
+          -
+            fields:
+              0c0b20d5-c08c-4d70-bf07-f8a0a623df03:
+                required: false
+                sortOrder: 4
+              34765f0e-1042-4cf8-9b66-faa586b489a3:
+                required: true
+                sortOrder: 1
+              68d0e342-a5ad-409d-bc98-631705996910:
+                required: false
+                sortOrder: 3
+              e0cd6e36-aa6a-4e8b-a0c9-184db3d9ba8f:
+                required: true
+                sortOrder: 2
+            name: Content
+            sortOrder: 1
+    fields:
+      0c0b20d5-c08c-4d70-bf07-f8a0a623df03:
+        contentColumnType: boolean
+        fieldGroup: null
+        handle: required
+        instructions: 'This field is required?'
+        name: Required
+        searchable: true
+        settings:
+          default: ''
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\Lightswitch
+      34765f0e-1042-4cf8-9b66-faa586b489a3:
+        contentColumnType: text
+        fieldGroup: null
+        handle: label
+        instructions: ''
+        name: Label
+        searchable: true
+        settings:
+          byteLimit: null
+          charLimit: null
+          code: ''
+          columnType: text
+          initialRows: '4'
+          multiline: ''
+          placeholder: ''
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\PlainText
+      68d0e342-a5ad-409d-bc98-631705996910:
+        contentColumnType: text
+        fieldGroup: null
+        handle: placeholder
+        instructions: ''
+        name: Placeholder
+        searchable: true
+        settings:
+          byteLimit: null
+          charLimit: null
+          code: ''
+          columnType: text
+          initialRows: '4'
+          multiline: ''
+          placeholder: ''
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\PlainText
+      e0cd6e36-aa6a-4e8b-a0c9-184db3d9ba8f:
+        contentColumnType: text
+        fieldGroup: null
+        handle: fieldHandle
+        instructions: ''
+        name: Handle
+        searchable: true
+        settings:
+          byteLimit: null
+          charLimit: null
+          code: ''
+          columnType: text
+          initialRows: '4'
+          multiline: ''
+          placeholder: ''
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\PlainText
+    handle: singleLine
+    name: 'Single Line'
+    sortOrder: 1
+  1c0f107a-99e1-4bcf-aa26-d022078eb1ca:
+    field: 54ba4871-d804-4394-98ed-0f68b708bf5a
+    fieldLayouts:
+      a2bb0baf-3a81-4c9f-9b69-a81d17eac336:
+        tabs:
+          -
+            fields:
+              127ca539-d389-4315-9500-c0bd0e140682:
+                required: false
+                sortOrder: 4
+              15a2f9ca-fcbf-4c7c-9790-a920a93ad4cf:
+                required: true
+                sortOrder: 3
+              82d5a489-e37b-426f-b8a0-75efb7a671f5:
+                required: true
+                sortOrder: 1
+              d112be15-bc42-4608-8dac-336839488c01:
+                required: true
+                sortOrder: 2
+            name: Content
+            sortOrder: 1
+    fields:
+      127ca539-d389-4315-9500-c0bd0e140682:
+        contentColumnType: boolean
+        fieldGroup: null
+        handle: required
+        instructions: 'This field is required?'
+        name: Required
+        searchable: true
+        settings:
+          default: ''
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\Lightswitch
+      15a2f9ca-fcbf-4c7c-9790-a920a93ad4cf:
+        contentColumnType: text
+        fieldGroup: null
+        handle: options
+        instructions: ''
+        name: Options
+        searchable: true
+        settings:
+          addRowLabel: 'Add an option'
+          columnType: text
+          columns:
+            __assoc__:
+              -
+                - col1
+                -
+                  __assoc__:
+                    -
+                      - heading
+                      - 'Option Label'
+                    -
+                      - handle
+                      - optionLabel
+                    -
+                      - width
+                      - ''
+                    -
+                      - type
+                      - singleline
+              -
+                - col2
+                -
+                  __assoc__:
+                    -
+                      - heading
+                      - Value
+                    -
+                      - handle
+                      - value
+                    -
+                      - width
+                      - ''
+                    -
+                      - type
+                      - singleline
+          defaults:
+            -
+              __assoc__:
+                -
+                  - col1
+                  - ''
+                -
+                  - col2
+                  - ''
+          maxRows: ''
+          minRows: '1'
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\Table
+      82d5a489-e37b-426f-b8a0-75efb7a671f5:
+        contentColumnType: text
+        fieldGroup: null
+        handle: label
+        instructions: ''
+        name: Label
+        searchable: true
+        settings:
+          byteLimit: null
+          charLimit: null
+          code: ''
+          columnType: text
+          initialRows: '4'
+          multiline: ''
+          placeholder: ''
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\PlainText
+      d112be15-bc42-4608-8dac-336839488c01:
+        contentColumnType: text
+        fieldGroup: null
+        handle: fieldHandle
+        instructions: ''
+        name: Handle
+        searchable: true
+        settings:
+          byteLimit: null
+          charLimit: null
+          code: ''
+          columnType: text
+          initialRows: '4'
+          multiline: ''
+          placeholder: ''
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\PlainText
+    handle: checkboxes
+    name: CheckBoxes
+    sortOrder: 6
+  2ef464d7-a11b-43fd-bc3a-11b8558d1dcd:
+    field: 8cf288c1-6839-4031-b9f2-b829a1fdc978
+    fieldLayouts:
+      7c445ae4-85ce-4870-9ad8-c922767f4498:
+        tabs:
+          -
+            fields:
+              35c77cbe-de58-4b82-980b-7b1e1e29acdd:
+                required: true
+                sortOrder: 1
+              96816478-fe7b-4feb-b5ab-7779f23327be:
+                required: false
+                sortOrder: 4
+              e5443b84-dace-48d1-a339-035df9c07de6:
+                required: false
+                sortOrder: 3
+              f1030f10-eeb1-46d1-be7f-de082710c4a4:
+                required: false
+                sortOrder: 2
+            name: Content
+            sortOrder: 1
+    fields:
+      35c77cbe-de58-4b82-980b-7b1e1e29acdd:
+        contentColumnType: string
+        fieldGroup: null
+        handle: selectPlan
+        instructions: 'Can''t see your plans? Go to [Subscriptions](http://localhost:8080/admin/enupal-stripe/settings/subscriptions) and click on Refresh Plans'
+        name: 'Select Plan'
+        searchable: true
+        settings:
+          optgroups: true
+          options:
+            -
+              __assoc__:
+                -
+                  - label
+                  - 'Select Plan...'
+                -
+                  - value
+                  - ''
+                -
+                  - default
+                  - ''
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\Dropdown
+      96816478-fe7b-4feb-b5ab-7779f23327be:
+        contentColumnType: boolean
+        fieldGroup: null
+        handle: default
+        instructions: 'Please make sure that just one default is enabled'
+        name: Default
+        searchable: true
+        settings:
+          default: ''
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\Lightswitch
+      e5443b84-dace-48d1-a339-035df9c07de6:
+        contentColumnType: 'decimal(12,2)'
+        fieldGroup: null
+        handle: setupFee
+        instructions: 'Setup Fee for the first payment'
+        name: 'Setup Fee'
+        searchable: true
+        settings:
+          decimals: '2'
+          defaultValue: null
+          max: null
+          min: null
+          prefix: null
+          size: null
+          suffix: null
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\Number
+      f1030f10-eeb1-46d1-be7f-de082710c4a4:
+        contentColumnType: text
+        fieldGroup: null
+        handle: customLabel
+        instructions: 'Override the default text displayed for each plan (i.e. “Nickname amount/interval”)'
+        name: 'Custom Label'
+        searchable: true
+        settings:
+          byteLimit: null
+          charLimit: null
+          code: ''
+          columnType: text
+          initialRows: '4'
+          multiline: ''
+          placeholder: 'Awesome Plan $35.00/month'
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\PlainText
+    handle: subscriptionPlan
+    name: 'Subscription Plan'
+    sortOrder: 1
+  4cb58a53-6728-49be-b4d6-d91b807cca2c:
+    field: 54ba4871-d804-4394-98ed-0f68b708bf5a
+    fieldLayouts:
+      ec0576ee-1ad7-4054-8299-cc4c084c451e:
+        tabs:
+          -
+            fields:
+              39a6013b-40f1-4a8d-8281-37ec24ebd1d1:
+                required: true
+                sortOrder: 2
+              67a1e988-d04c-4fbf-93b2-2f8ac7831bd9:
+                required: true
+                sortOrder: 1
+              6bf52d7e-94f6-4632-b52e-61e48c7a1e08:
+                required: false
+                sortOrder: 4
+              77de1690-62ea-43fb-a90e-9de83c5b9c27:
+                required: true
+                sortOrder: 3
+            name: Content
+            sortOrder: 1
+    fields:
+      39a6013b-40f1-4a8d-8281-37ec24ebd1d1:
+        contentColumnType: text
+        fieldGroup: null
+        handle: fieldHandle
+        instructions: ''
+        name: Handle
+        searchable: true
+        settings:
+          byteLimit: null
+          charLimit: null
+          code: ''
+          columnType: text
+          initialRows: '4'
+          multiline: ''
+          placeholder: ''
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\PlainText
+      67a1e988-d04c-4fbf-93b2-2f8ac7831bd9:
+        contentColumnType: text
+        fieldGroup: null
+        handle: label
+        instructions: ''
+        name: Label
+        searchable: true
+        settings:
+          byteLimit: null
+          charLimit: null
+          code: ''
+          columnType: text
+          initialRows: '4'
+          multiline: ''
+          placeholder: ''
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\PlainText
+      6bf52d7e-94f6-4632-b52e-61e48c7a1e08:
+        contentColumnType: boolean
+        fieldGroup: null
+        handle: required
+        instructions: 'This field is required?'
+        name: Required
+        searchable: true
+        settings:
+          default: ''
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\Lightswitch
+      77de1690-62ea-43fb-a90e-9de83c5b9c27:
+        contentColumnType: text
+        fieldGroup: null
+        handle: options
+        instructions: ''
+        name: Options
+        searchable: true
+        settings:
+          addRowLabel: 'Add an option'
+          columnType: text
+          columns:
+            __assoc__:
+              -
+                - col1
+                -
+                  __assoc__:
+                    -
+                      - heading
+                      - 'Option Label'
+                    -
+                      - handle
+                      - optionLabel
+                    -
+                      - width
+                      - ''
+                    -
+                      - type
+                      - singleline
+              -
+                - col2
+                -
+                  __assoc__:
+                    -
+                      - heading
+                      - Value
+                    -
+                      - handle
+                      - value
+                    -
+                      - width
+                      - ''
+                    -
+                      - type
+                      - singleline
+          defaults:
+            -
+              __assoc__:
+                -
+                  - col1
+                  - ''
+                -
+                  - col2
+                  - ''
+          maxRows: ''
+          minRows: '1'
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\Table
+    handle: radioButtons
+    name: 'Radio Buttons'
+    sortOrder: 4
+  5d28bcc8-3f7d-4fd0-ade0-2f30dab7250b:
+    field: 54ba4871-d804-4394-98ed-0f68b708bf5a
+    fieldLayouts:
+      8dd41c02-762f-4415-8b63-2d273d564412:
+        tabs:
+          -
+            fields:
+              526b9484-3752-4213-8424-13532e654cc1:
+                required: true
+                sortOrder: 2
+              5f786e0b-221e-42a9-b2e2-b31eb628a5ce:
+                required: true
+                sortOrder: 1
+            name: Content
+            sortOrder: 1
+    fields:
+      526b9484-3752-4213-8424-13532e654cc1:
+        contentColumnType: text
+        fieldGroup: null
+        handle: hiddenValue
+        instructions: 'You can use twig code'
+        name: 'Hidden Value'
+        searchable: true
+        settings:
+          byteLimit: null
+          charLimit: null
+          code: ''
+          columnType: text
+          initialRows: '4'
+          multiline: ''
+          placeholder: '{{ craft.request.path }}'
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\PlainText
+      5f786e0b-221e-42a9-b2e2-b31eb628a5ce:
+        contentColumnType: text
+        fieldGroup: null
+        handle: label
+        instructions: 'This field will not visible in the form, just in the source code'
+        name: Handle
+        searchable: true
+        settings:
+          byteLimit: null
+          charLimit: null
+          code: ''
+          columnType: text
+          initialRows: '4'
+          multiline: ''
+          placeholder: ''
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\PlainText
+    handle: hidden
+    name: Hidden
+    sortOrder: 7
+  7d70c1c2-c7f7-4eee-9721-5eea53200986:
+    field: 54ba4871-d804-4394-98ed-0f68b708bf5a
+    fieldLayouts:
+      73771cde-5ea1-4b3d-abe8-33ef16813f91:
+        tabs:
+          -
+            fields:
+              01532905-b67b-40b4-b6d3-9d62bb0b1f0d:
+                required: true
+                sortOrder: 3
+              214bf001-737a-443f-8c4e-dbfea65e3c9b:
+                required: true
+                sortOrder: 1
+              6375948d-383f-42d1-a300-43c86c0bf6fe:
+                required: true
+                sortOrder: 2
+              ae94a181-9b63-4cbd-bfa8-de229a25bde9:
+                required: false
+                sortOrder: 4
+            name: Content
+            sortOrder: 1
+    fields:
+      01532905-b67b-40b4-b6d3-9d62bb0b1f0d:
+        contentColumnType: text
+        fieldGroup: null
+        handle: options
+        instructions: ''
+        name: Options
+        searchable: true
+        settings:
+          addRowLabel: 'Add an option'
+          columnType: text
+          columns:
+            __assoc__:
+              -
+                - col1
+                -
+                  __assoc__:
+                    -
+                      - heading
+                      - 'Option Label'
+                    -
+                      - handle
+                      - optionLabel
+                    -
+                      - width
+                      - ''
+                    -
+                      - type
+                      - singleline
+              -
+                - col2
+                -
+                  __assoc__:
+                    -
+                      - heading
+                      - Value
+                    -
+                      - handle
+                      - value
+                    -
+                      - width
+                      - ''
+                    -
+                      - type
+                      - singleline
+          defaults:
+            -
+              __assoc__:
+                -
+                  - col1
+                  - ''
+                -
+                  - col2
+                  - ''
+          maxRows: ''
+          minRows: '1'
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\Table
+      214bf001-737a-443f-8c4e-dbfea65e3c9b:
+        contentColumnType: text
+        fieldGroup: null
+        handle: label
+        instructions: ''
+        name: Label
+        searchable: true
+        settings:
+          byteLimit: null
+          charLimit: null
+          code: ''
+          columnType: text
+          initialRows: '4'
+          multiline: ''
+          placeholder: ''
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\PlainText
+      6375948d-383f-42d1-a300-43c86c0bf6fe:
+        contentColumnType: text
+        fieldGroup: null
+        handle: fieldHandle
+        instructions: ''
+        name: Handle
+        searchable: true
+        settings:
+          byteLimit: null
+          charLimit: null
+          code: ''
+          columnType: text
+          initialRows: '4'
+          multiline: ''
+          placeholder: ''
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\PlainText
+      ae94a181-9b63-4cbd-bfa8-de229a25bde9:
+        contentColumnType: boolean
+        fieldGroup: null
+        handle: required
+        instructions: 'This field is required?'
+        name: Required
+        searchable: true
+        settings:
+          default: ''
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\Lightswitch
+    handle: dropdown
+    name: Dropdown
+    sortOrder: 3
+  f8fcd322-e3cf-4b4c-b9f9-62f5f5c6d85b:
+    field: 54ba4871-d804-4394-98ed-0f68b708bf5a
+    fieldLayouts:
+      bcac4807-c47b-4bfd-85c3-d354570c8e6c:
+        tabs:
+          -
+            fields:
+              1d4a6906-ef77-4d9b-b267-37478a234bbe:
+                required: false
+                sortOrder: 3
+              23e1364e-0e59-4302-a3d5-036ae9b27c3f:
+                required: true
+                sortOrder: 4
+              475565b6-6d12-40d4-82c9-274796eca07b:
+                required: true
+                sortOrder: 2
+              93e30bd4-5795-49b0-9977-f4e5fc03642d:
+                required: false
+                sortOrder: 5
+              f94dcd9a-be60-46c9-86b1-69d14380d91f:
+                required: true
+                sortOrder: 1
+            name: Content
+            sortOrder: 1
+    fields:
+      1d4a6906-ef77-4d9b-b267-37478a234bbe:
+        contentColumnType: text
+        fieldGroup: null
+        handle: placeholder
+        instructions: ''
+        name: Placeholder
+        searchable: true
+        settings:
+          byteLimit: null
+          charLimit: null
+          code: ''
+          columnType: text
+          initialRows: '4'
+          multiline: ''
+          placeholder: ''
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\PlainText
+      23e1364e-0e59-4302-a3d5-036ae9b27c3f:
+        contentColumnType: integer(10)
+        fieldGroup: null
+        handle: initialRows
+        instructions: ''
+        name: 'Initial Rows'
+        searchable: true
+        settings:
+          decimals: 0
+          defaultValue: null
+          max: null
+          min: '2'
+          prefix: null
+          size: null
+          suffix: null
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\Number
+      475565b6-6d12-40d4-82c9-274796eca07b:
+        contentColumnType: text
+        fieldGroup: null
+        handle: fieldHandle
+        instructions: ''
+        name: Handle
+        searchable: true
+        settings:
+          byteLimit: null
+          charLimit: null
+          code: ''
+          columnType: text
+          initialRows: '4'
+          multiline: ''
+          placeholder: ''
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\PlainText
+      93e30bd4-5795-49b0-9977-f4e5fc03642d:
+        contentColumnType: boolean
+        fieldGroup: null
+        handle: required
+        instructions: 'This field is required?'
+        name: Required
+        searchable: true
+        settings:
+          default: ''
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\Lightswitch
+      f94dcd9a-be60-46c9-86b1-69d14380d91f:
+        contentColumnType: text
+        fieldGroup: null
+        handle: label
+        instructions: ''
+        name: Label
+        searchable: true
+        settings:
+          byteLimit: null
+          charLimit: null
+          code: ''
+          columnType: text
+          initialRows: '4'
+          multiline: ''
+          placeholder: ''
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\PlainText
+    handle: paragraph
+    name: Paragraph
+    sortOrder: 2
+  fe35aea7-b8e6-42e0-892d-8f8c4400a8c1:
+    field: 54ba4871-d804-4394-98ed-0f68b708bf5a
+    fieldLayouts:
+      6c380fa2-be39-4005-9000-e226fdf722cc:
+        tabs:
+          -
+            fields:
+              1c98368e-47a6-45bf-b0a9-5d73aca43808:
+                required: false
+                sortOrder: 4
+              524a046d-27a2-4b16-913a-25e8e040596b:
+                required: true
+                sortOrder: 1
+              70768855-3bd9-4a62-af29-900ca5243964:
+                required: true
+                sortOrder: 2
+              75fb6ca9-fb31-41d1-bfef-3507d9f3678f:
+                required: false
+                sortOrder: 5
+              9c677c31-0c53-4d17-ba39-eebb54491e99:
+                required: false
+                sortOrder: 3
+            name: Content
+            sortOrder: 1
+    fields:
+      1c98368e-47a6-45bf-b0a9-5d73aca43808:
+        contentColumnType: integer(10)
+        fieldGroup: null
+        handle: maxValue
+        instructions: ''
+        name: 'Max Value'
+        searchable: true
+        settings:
+          decimals: 0
+          defaultValue: null
+          max: null
+          min: null
+          prefix: null
+          size: null
+          suffix: null
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\Number
+      524a046d-27a2-4b16-913a-25e8e040596b:
+        contentColumnType: text
+        fieldGroup: null
+        handle: label
+        instructions: ''
+        name: Label
+        searchable: true
+        settings:
+          byteLimit: null
+          charLimit: null
+          code: ''
+          columnType: text
+          initialRows: '4'
+          multiline: ''
+          placeholder: ''
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\PlainText
+      70768855-3bd9-4a62-af29-900ca5243964:
+        contentColumnType: text
+        fieldGroup: null
+        handle: fieldHandle
+        instructions: ''
+        name: Handle
+        searchable: true
+        settings:
+          byteLimit: null
+          charLimit: null
+          code: ''
+          columnType: text
+          initialRows: '4'
+          multiline: ''
+          placeholder: ''
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\PlainText
+      75fb6ca9-fb31-41d1-bfef-3507d9f3678f:
+        contentColumnType: boolean
+        fieldGroup: null
+        handle: required
+        instructions: 'This field is required?'
+        name: Required
+        searchable: true
+        settings:
+          default: ''
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\Lightswitch
+      9c677c31-0c53-4d17-ba39-eebb54491e99:
+        contentColumnType: integer(10)
+        fieldGroup: null
+        handle: minValue
+        instructions: ''
+        name: 'Min Value'
+        searchable: true
+        settings:
+          decimals: 0
+          defaultValue: null
+          max: null
+          min: null
+          prefix: null
+          size: null
+          suffix: null
+        translationKeyFormat: null
+        translationMethod: site
+        type: craft\fields\Number
+    handle: number
+    name: Number
+    sortOrder: 5
+plugins:
+  enupal-stripe:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.5.0
+    settings:
+      adminNotificationRecipients: null
+      adminNotificationReplyToEmail: null
+      adminNotificationSenderEmail: null
+      adminNotificationSenderName: null
+      adminNotificationSubject: null
+      adminNotificationTemplate: null
+      adminTemplateOverride: null
+      cancelAtPeriodEnd: false
+      capture: '1'
+      chargeDescription: 'Order from {email}'
+      currentUserEmail: 0
+      customerNotificationReplyToEmail: null
+      customerNotificationSenderEmail: null
+      customerNotificationSenderName: null
+      customerNotificationSubject: null
+      customerNotificationTemplate: null
+      customerTemplateOverride: null
+      defaultCurrency: USD
+      displayTaxLabel: 0
+      enableAdminNotification: null
+      enableCustomerNotification: null
+      enableTaxes: 0
+      livePublishableKey: ''
+      liveSecretKey: ''
+      loadCss: 1
+      loadJquery: 1
+      oneTimeSetupFeeLabel: 'One time set-up fee'
+      plansWithNickname: 1
+      returnUrl: null
+      syncDefaultFormId: null
+      syncDefaultStatusId: null
+      syncEnabledDateRange: false
+      syncEndDate: null
+      syncIfUserExists: false
+      syncLimit: 500
+      syncStartDate: null
+      syncType: 1
+      tax: null
+      taxType: 0
+      testMode: 1
+      testPublishableKey: null
+      testSecretKey: null
+      updateCustomerEmailOnStripe: 0
+      useSca: ''
+siteGroups:
+  3f6648be-17a7-439a-b313-0d5ff248bc79:
+    name: 'Craft 200518'
+sites:
+  592bc7be-1d9c-434a-907d-308eab0885d4:
+    baseUrl: $DEFAULT_SITE_URL
+    handle: default
+    hasUrls: true
+    language: en-US
+    name: 'Craft 200518'
+    primary: true
+    siteGroup: 3f6648be-17a7-439a-b313-0d5ff248bc79
+    sortOrder: 1
+system:
+  edition: solo
+  live: true
+  name: 'Craft 200518'
+  schemaVersion: 3.4.10
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: ''
+  photoVolumeUid: null
+  requireEmailVerification: true
